@@ -21,6 +21,20 @@ const ChatList = () => {
 					onClick={() => setAddMode((prev) => !prev)}
 				/>
 			</div>
+			<div className='item'>
+				<Image src='/avatar.png' width={50} height={50} alt='avatarDefault' />
+				<div className='texts'>
+					<span>John Snow</span>
+					<p>Hello world</p>
+				</div>
+			</div>
+			<div className='item'>
+				<Image src='/avatar.png' width={50} height={50} alt='avatarDefault' />
+				<div className='texts'>
+					<span>John Snow</span>
+					<p>Hello world</p>
+				</div>
+			</div>
 		</div>
 	);
 };
